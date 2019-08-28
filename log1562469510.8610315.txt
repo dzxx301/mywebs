@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "F:/python_prj/ev3/les_2.py", line 7, in <module>
+    lcd = Screen()
+  File "C:\Program Files\Python\Python37\lib\site-packages\ev3dev\core.py", line 3245, in __init__
+    FbMem.__init__(self)
+  File "C:\Program Files\Python\Python37\lib\site-packages\ev3dev\core.py", line 3181, in __init__
+    fid = FbMem._open_fbdev(fbdev)
+  File "C:\Program Files\Python\Python37\lib\site-packages\ev3dev\core.py", line 3203, in _open_fbdev
+    fbfid = os.open(dev, os.O_RDWR)
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/fb0'
